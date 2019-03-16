@@ -16,6 +16,7 @@ import android.database.Cursor;
 
 import java.util.Map;
 import java.util.HashMap;
+import java.util.ArrayList;
 import java.lang.SecurityException;
 import java.lang.String;
 
@@ -54,8 +55,9 @@ public class RNSmsAndroidModule extends ReactContextBaseJavaModule {
         if ((sendType.equals("sendDirect")) && (body != null) && (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT)) {
 
             try {
-                SmsManager smsManager = SmsManager.getDefault();
-                smsManager.sendTextMessage(phoneNumberString,null,body,null,null);
+                SmsManager sms = SmsManager.getDefault();
+                ArrayList<String> parts = sms.divideMessage(body);
+                sms.sendMultipartTextMessage(phoneNumberString, null, parts, null, null);
                 callback.invoke(null,"success");
             }
 

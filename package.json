@@ -1,11 +1,68 @@
 {
-  "name": "react-native-sms-android",
-  "version": "0.4.1",
-  "description": "A react-native module for sending a sms message to a phone number.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_args": [
+    [
+      {
+        "raw": "react-native-sms-android@^0.4.1",
+        "scope": null,
+        "escapedName": "react-native-sms-android",
+        "name": "react-native-sms-android",
+        "rawSpec": "^0.4.1",
+        "spec": ">=0.4.1 <0.5.0",
+        "type": "range"
+      },
+      "C:\\Users\\phili\\freedomson\\paseeo\\app"
+    ]
+  ],
+  "_from": "react-native-sms-android@>=0.4.1 <0.5.0",
+  "_id": "react-native-sms-android@0.4.1",
+  "_inCache": true,
+  "_location": "/react-native-sms-android",
+  "_nodeVersion": "4.2.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/react-native-sms-android-0.4.1.tgz_1470097196775_0.28848352446220815"
   },
+  "_npmUser": {
+    "name": "rhaker",
+    "email": "email@example.com"
+  },
+  "_npmVersion": "2.14.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-sms-android@^0.4.1",
+    "scope": null,
+    "escapedName": "react-native-sms-android",
+    "name": "react-native-sms-android",
+    "rawSpec": "^0.4.1",
+    "spec": ">=0.4.1 <0.5.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-sms-android/-/react-native-sms-android-0.4.1.tgz",
+  "_shasum": "e87bd98e1cd93485bab270bb489f2180960c24a6",
+  "_shrinkwrap": null,
+  "_spec": "react-native-sms-android@^0.4.1",
+  "_where": "C:\\Users\\phili\\freedomson\\paseeo\\app",
+  "author": {
+    "name": "rhaker",
+    "email": "email@example.com",
+    "url": "http://github.com/rhaker"
+  },
+  "bugs": {
+    "url": "https://github.com/rhaker/react-native-sms-android/issues"
+  },
+  "dependencies": {},
+  "description": "A react-native module for sending a sms message to a phone number.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "e87bd98e1cd93485bab270bb489f2180960c24a6",
+    "tarball": "https://registry.npmjs.org/react-native-sms-android/-/react-native-sms-android-0.4.1.tgz"
+  },
+  "gitHead": "532475e0351397357a68e54e2930adad261a4745",
+  "homepage": "https://github.com/rhaker/react-native-sms-android",
   "keywords": [
     "react-component",
     "react-native",
@@ -14,18 +71,26 @@
     "addressbook",
     "sms"
   ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "rhaker",
+      "email": "email@example.com"
+    }
+  ],
+  "name": "react-native-sms-android",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "react-native": ">=0.19.0"
+  },
+  "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
     "url": "github.com:rhaker/react-native-sms-android.git"
   },
-  "author": "rhaker <email@example.com> (http://github.com/rhaker)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/rhaker/react-native-sms-android/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/rhaker/react-native-sms-android",
-  "peerDependencies": {
-    "react-native": ">=0.19.0"
-  },
-  "devDependencies": {}
+  "version": "0.4.1"
 }
